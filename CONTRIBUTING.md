@@ -7,6 +7,7 @@ This page contains guidelines for contributing to Feedr
 
 1. Fork [Feedr](http://github.com/indy-laravel/feedr)
 2. To get started contributing to Feedr, you'll need a [fresh install](http://laravel.com/docs/installation#install-laravel) of laravel. If you already have composer installed...
+
     ```
     composer create-project laravel/laravel [directory] --prefer-dist
     cd [directory]
@@ -17,6 +18,7 @@ This page contains guidelines for contributing to Feedr
     git clone git@github.com:[your-github-account]/feedr.git .
     ```
 3. Create a new branch
+
     ```
     git checkout -b 'branchName'
     ```
