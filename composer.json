@@ -1,0 +1,23 @@
+{
+    "name": "indy-laravel/feedr",
+    "description": "Solicit user feedback and collect exceptions.",
+    "authors": [
+        {
+            "name": "Indy Laravel Meetup",
+            "email": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "IndyLaravel\\Feedr\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
