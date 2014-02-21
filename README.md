@@ -8,8 +8,7 @@ To get started contributing to Feedr, you'll need a [fresh install](http://larav
 ```
 composer create-project laravel/laravel [directory] --prefer-dist
 cd [directory]
-php artisan workbench indy-laravel/feedr --resources
-cd workbench/indy-laravel/feedr
+php artisan workbench indy-laravel/feedr --resources # Ignore the error
 rm -rf workbench/indy-laravel/feedr/*
 rm -rf workbench/indy-laravel/feedr/.*
 cd workbench/indy-laravel/feedr
