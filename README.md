@@ -4,7 +4,7 @@ feedr
 
 ## Contributing
 =====
-To get started contributing to Feedr, you'll need a [fresh install](http://laravel.com/docs/installation#install-laravel) of laravel. if you already have composer installed...
+To get started contributing to Feedr, you'll need a [fresh install](http://laravel.com/docs/installation#install-laravel) of laravel. If you already have composer installed...
 ```
 composer create-project laravel/laravel [directory] --prefer-dist
 cd [directory]
