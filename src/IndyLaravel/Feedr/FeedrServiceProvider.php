@@ -28,7 +28,9 @@ class FeedrServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
+		$this->app->bind('feedr', function($app) {
+        	return new Feedr($app['view']);
+        });
 	}
 
 	/**
